@@ -1,0 +1,25 @@
+-imported selenium and tested automating accessing google, had to install a driver (using chrome)
+- https://stackoverflow.com/questions/40555930/selenium-chromedriver-executable-needs-to-be-in-path -------- this helped
+
+-would open browser, but executable path to driver would deprecate
+- https://www.youtube.com/watch?v=VMzmVFA-Gps ------ this video helped
+
+-access website to attack, in this case, myspace sign in page
+-no issues
+
+-send stuff to the boxes
+-https://stackoverflow.com/questions/69875125/find-element-by-commands-are-deprecated-in-selenium ------ some commands in selenium are deprecated
+-https://www.geeksforgeeks.org/click-method-action-chains-in-selenium-python/ ----- click boxes
+-https://www.geeksforgeeks.org/action-chains-in-selenium-python/ ------- actionchain
+
+-integrate password crack python file with set up
+- import the python file and use the bruteforce method
+- I made another bruteforce method that would return a list of all possible user combinations (a-z, 0-9) and looped through that list to insert for usernames
+-for passwords I used the passwords.txt dictionary I had
+-I used loops to find what user-pass combo to used and inserted it into the text boxes
+-https://www.adamsmith.haus/python/answers/how-to-skip-the-first-element-of-a-for-loop-in-python#:~:text=Use%20slicing%20to%20skip%20the,element%20of%20a%20for%2Dloop. -------- skip first element of list in python when looping
+-https://www.geeksforgeeks.org/key_down-method-action-chains-in-selenium-python/?ref=rp ------------ to clear the password field
+-https://stackoverflow.com/questions/7732125/clear-text-from-textarea-with-selenium ----------- key press sequences
+-https://stackoverflow.com/questions/18487159/how-can-i-simultaneously-perform-ctrl-enter-in-selenium-webdriver ----------- simultaneous key presses
+
+
