@@ -59,6 +59,7 @@ def brute_u(x):
         for guess in itertools.product(charList, repeat=i):
             g = ''.join(guess)
             guess_list.append(g)
+    print(guess_list)
     return guess_list
 
 def main():
